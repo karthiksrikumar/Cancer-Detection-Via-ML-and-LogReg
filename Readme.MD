@@ -44,6 +44,9 @@ Logistic regression is used for binary classification, providing "soft" predicti
 
 The project includes the creation and visualization of confusion matrices to evaluate model performance.
 
+## **Decision Tree**
+I made a decision tree, and calculate accuracy, to see if this is a more optimal model.
+
 ## **Requirements**
 
 - **Python 3.x**
