@@ -1,7 +1,8 @@
 # **Cell Classification using Logistic Regression**
 
 This project utilizes machine learning techniques, specifically logistic regression, to classify cell biopsies as either malignant or benign based on various cellular features.
-#**Important Note**
+
+# **Important Note**
 In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook.
 On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.
 
