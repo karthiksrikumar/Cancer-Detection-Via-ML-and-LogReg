@@ -16,7 +16,9 @@ The dataset contains the following features:
 - **symmetry_mean**: The average symmetry of cells in the biopsy.
 
 *Note: The term "mean" refers to the average value for each feature across all cells in a given biopsy.*
-
+#Bigger Note:
+In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook.
+On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.
 ## **Project Structure**
 
 This project is implemented in a Jupyter Notebook (.ipynb) file, which contains the following main sections:
