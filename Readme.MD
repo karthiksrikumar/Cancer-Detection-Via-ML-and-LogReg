@@ -1,59 +1,41 @@
-# 2D Graphing Simulator
+Cell Classification using Logistic Regression
+This project uses machine learning techniques, specifically logistic regression, to classify cell biopsies as either malignant or benign based on various cellular features.
+Dataset
+The dataset contains the following features:
 
-This project is a 2D Graphing Simulator that allows users to input mathematical equations and visualize their graphs. The simulator is built using HTML, JavaScript, and the Chart.js library for rendering 2D graphs. It also uses Math.js to parse and evaluate the mathematical expressions.
+diagnosis: Whether the tumor was diagnosed as malignant (1) or benign (0).
+perimeter_mean: The average perimeter of cells in the biopsy
+radius_mean: The average radius of cells in the biopsy
+texture_mean: The average texture of cells in the biopsy
+area_mean: The average area of cells in the biopsy
+smoothness_mean: The average smoothness of cells in the biopsy
+concavity_mean: The average concavity of cells in the biopsy
+symmetry_mean: The average symmetry of cells in the biopsy
 
-## Features
+Note: The term "mean" refers to the average value for each feature across all cells in a given biopsy.
+Project Structure
+This project is implemented in a Jupyter Notebook (.ipynb) file, which contains the following main sections:
 
-- **2D Graphing**: Plot 2D graphs of mathematical functions.
-- **Interactive Input**: Enter equations in the form of `y = f(x)` and update the graph dynamically.
-- **Data Table**: Toggle to show a table of calculated values for the function.
+Data Loading and Preprocessing
+Exploratory Data Analysis
+Logistic Regression with Multiple Features
+Model Creation and Training
+Visualization and Interpretation
+Model Predictions
+Model Performance Evaluation
 
-## Installation
+Logistic Regression
+Logistic regression is used for binary classification, providing "soft" predictions in the form of probabilities. The model combines multiple features to improve classification accuracy.
+Confusion Matrices
+The project includes the creation and visualization of confusion matrices to evaluate model performance.
+Requirements
 
-No installation is required. Simply open the `index.html` file in a web browser.
+Python 3.x
+Jupyter Notebook
+Required libraries: pandas, numpy, scikit-learn, matplotlib, seaborn
 
-## Usage
+Usage
 
-1. Open the `index.html` file in your preferred web browser.
-2. Enter a mathematical equation in the input field (e.g., `y = x^2`).
-3. Click the "Graph" button to plot the graph.
-4. Click the "Toggle Table" button to show or hide the table of calculated values.
-
-## Libraries and Tools Used
-
-- **[Chart.js](https://www.chartjs.org/)**: A JavaScript library for creating 2D charts.
-- **[Math.js](https://mathjs.org/)**: A JavaScript library for mathematical operations.
-- **HTML/CSS**: For structuring and styling the application.
-- **JavaScript**: For adding interactivity and logic.
-
-## Code Structure
-
-- `index.html`: The main HTML file that contains the structure and elements of the application.
-- Inline JavaScript: Contains the logic for plotting graphs, evaluating equations, and generating tables.
-- Inline CSS: Provides basic styling for the application.
-
-## Example
-
-Here is an example of how to use the 2D Graphing Simulator:
-
-1. Open the application in your browser.
-2. In the input field, type `y = x^2`.
-3. Click "Graph". The graph of the equation `y = x^2` will be plotted on the screen.
-4. Click "Toggle Table" to see the table of values for `x` from -5 to 5.
-
-## Screenshots
-
-![Graphing Interface](screenshots/graph_interface.png)
-*Graphing Interface*
-
-![Data Table](screenshots/data_table.png)
-*Data Table*
-
-## Contributing
-
-If you would like to contribute to this project, please fork the repository and submit a pull request. We welcome improvements, bug fixes, and new features.
-
-
----
-
-Thank you for using the 2D Graphing Simulator!
+Open the Jupyter Notebook file.
+Run the cells in order to reproduce the analysis and results.
+Modify parameters or add new features as needed for further experimentation.
